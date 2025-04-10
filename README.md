@@ -15,14 +15,14 @@ Oferecer suporte aos estudantes por meio de códigos comentados e organizados, r
 ## 🗂 Estrutura
 
 ```
-📁 pascal-monitoria/
-├── aula01_estrutura_basica.pas
-├── aula02_condicionais.pas
-├── aula03_repeticao.pas
-├── aula04_funcoes.pas
-├── exemplos_extras/
-│   ├── ordenacao.pas
-│   └── recursividade.pas
+📁 Monitoria/
+├── aulaloop
+    └── contador.pas
+    └── for.pas
+    └── somador.pas
+    └── while.pas   
+├── aularevisao
+    └── revisao.pas
 └── README.md
 ```
 
@@ -34,7 +34,7 @@ Oferecer suporte aos estudantes por meio de códigos comentados e organizados, r
 
 ## 🚀 Como Executar os Scripts
 
-Utilize o compilador Pzim para executar os scripts.
+Utilize o compilador Pzim para executar os scripts.  
 **link** : https://pascalzimbr.blogspot.com/p/blog-page.html
 
 ## 🤝 Contribuição
