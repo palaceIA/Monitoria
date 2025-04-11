@@ -1,6 +1,6 @@
 Program contador ;
 var
-	{O que é um contador  ? -> Contador refere-se a uma variavel
+	{O que Ã© um contador  ? -> Contador refere-se a uma variavel
 	que vai armazenar a quantidade cardinal (exata- inteira)}
 	indice , contador : integer ;
 	idade : integer ; 
@@ -25,10 +25,10 @@ Begin
 	end}
 	
 	
-	// -> VAMOS COMEÇAR A BRINCAR <-
+	// -> VAMOS COMEÃ‡AR A BRINCAR <-
 	
 	{// Quantas pessoas tem a maior idade?
-	// Caso você não declare o contador ele sera inicializado com zero
+	// Caso vocÃª nÃ£o declare o contador ele sera inicializado com zero
 	for indice := 1 to 5 do
 		begin 
 			write('Digite idade : ');
@@ -66,7 +66,7 @@ Begin
 	  for indice := 1 to 7 do
 	    contador := contador * indice;
 	
-	  writeln('O fatorial de ', numero, ' é: ', contador);}
+	  writeln('O fatorial de ', numero, ' Ã©: ', contador);}
 	
 	{//  Calcular media salarial
 	write('Soma total do salario dos funcionarios : ');
@@ -74,7 +74,7 @@ Begin
 	for indice := 1 to 3 do 
 			contador := contador + 1; 
 	media := salario_total / contador ; 
-	write('Media salarial é igual a : ',media:0:2);}	
+	write('Media salarial Ã© igual a : ',media:0:2);}	
 	
 	
 	{// Melhorando nosso jogo de adivinha 
@@ -89,7 +89,7 @@ Begin
 				contador_neg := contador_neg - 1; 
 				if numero_adivinha = numero then 
 						begin
-							writeln('Muito bem , você acertou  !');
+							writeln('Muito bem , vocÃª acertou  !');
 							break
 						end
 				else if contador_neg = 0 then 
@@ -106,7 +106,7 @@ Begin
 	{// Vamos verificar o estoque 
 	write('A quantos produtos no estoque : ');
 	readln(estoque);
-	writeln('Distribuição de produtos');
+	writeln('DistribuiÃ§Ã£o de produtos');
 	contador_neg :=  estoque;
 	for indice := 1 to estoque do
 			begin
@@ -116,7 +116,7 @@ Begin
 				  contador_neg := contador_neg - setor; 
 				  if contador_neg < 0 then
 							begin 
-								resto := contador - setor ;
+								resto := contador - estoque ;
 								writeln('O estoque esvaziou') ;
 								writeln('Pedidos cancelados : ',resto) ;
 								break;
@@ -128,7 +128,7 @@ Begin
 			   1 - Crie um programa que receba numeros e conte quantos sao positivios
 			   2 - Crie um programa que o usuario tem que digitar uma determinada senha 
 			   			, caso o numero de tentativas seja igual a 5 encerrer o programa , 
-			   			caso contrario diga 'Olá'
+			   			caso contrario diga 'OlÃ¡'
 			   4 - Crie um programa que calcula o fatorial de um numero de entrada
 			
 			}
