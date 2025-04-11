@@ -1,12 +1,12 @@
 {
-	O loop while È uma estrutura de programaÁ„o
-	que permite repetir a execuÁ„o de um bloco 
-	de cÛdigo enquanto uma condiÁ„o for verdadeira. 
-	… ˙til quando n„o se sabe de antem„o quantas 
-	vezes o cÛdigo deve ser executado.  ]
+	O loop while √© uma estrutura de programa√ß√£o
+	que permite repetir a execu√ß√£o de um bloco 
+	de c√≥digo enquanto uma condi√ß√£o for verdadeira. 
+	√â √∫til quando n√£o se sabe de antem√£o quantas 
+	vezes o c√≥digo deve ser executado.  ]
 	
 	SINTAXE : 
-		while <condiÁ„o> do 
+		while <condi√ß√£o> do 
 }
 Program LoopWhile ;
 var
@@ -33,9 +33,9 @@ Begin
 				 cont := cont - 1 ;
 			end}
 			
-		{// Podemos utilizar TRUE como condiÁ„o -> Infinito 
+		{// Podemos utilizar TRUE como condi√ß√£o -> Infinito 
 		// MAS...devemos encerrar o programa em algum momento
-		// Para que n„o ocorra de cairmos em um loop infinito
+		// Para que n√£o ocorra de cairmos em um loop infinito
 		 cont := 1 ; 
 		 while TRUE do 
 		 		begin
@@ -62,7 +62,7 @@ Uma empresa deseja cadastrar N funcionarios e fazer algumas analises:
 		 					- Media salarial dos funcionarios
 		 					- Media salarial das mulheres
 		 					- media salarial dos homens
-		 					- ProporÁ„o de homens e mulheres
+		 					- Propor√ß√£o de homens e mulheres
 }
 			cont := 0 ; 
 			cont_h := 0 ;  
@@ -105,19 +105,20 @@ Uma empresa deseja cadastrar N funcionarios e fazer algumas analises:
 			writeln('Media geral do salario dos funcionarios : ',media_g:0:3);
 			writeln('Media geral do salario dos homens : ',media_h:0:3); 	     
 			writeln('Media geral do salario das mulheres : ',media_m:0:3); 	
-			writeln('ProporÁ„o de homens por mulheres : ',prop:0:1); 	 	
+			writeln('Propor√ß√£o de homens por mulheres : ',prop:0:1); 	 	
 End.
 
 {
 								--------------- DESAFIO ---------------
 		Um time de DEVs foram contratados por uma empresa para desenvolver
-		um aplicativo de nutriÁ„o . O aplicativo deve cadastrar os usuarios
+		um aplicativo de nutri√ß√£o . O aplicativo deve cadastrar os usuarios
 		e fazer uma analise com base nos dados de entrada : 
 					- Quantidade de clientes 
 					- Soma total do peso dos clientes 
+     					- Media de altura dos clientes
 					- Media de peso dos clientes
 					- Media do IHC dos clientes
-					- ProporÁ„o de mulheres por homens
+					- Propor√ß√£o de mulheres por homens
 		Use tecnicas de contadores , somadores e loops ,fica ao seu criterio
 		utilizar o loop for ou while . Essa atividade revisa todos os conceitos
 		de loops e tecnicas utilizadas.
